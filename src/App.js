@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+// Filename - App.js
+
+import React from "react";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home"
+// @ts-ignore - fancy thing to ignore errors
+import Projects from "./pages/Projects"
+import PythonProject from "./pages/PythonProject"
+import ProgrammingClass from "./pages/ProgrammingClass";
+import About from "./pages/About";
+import CounterThing from "./pages/CounterThing";
+import AnimationThing from "./pages/AnimationThing";
+
+import 'bulma/css/bulma.min.css';
 import './App.css';
 
+
+
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+
+          <Route path="/programmingclass" element={<ProgrammingClass />} />
+
+          <Route path="/about" element={<About />} />
+
+          <Route path="/counterthing" element={<CounterThing />} />
+          <Route path="/animationthing" element={<AnimationThing />} />
+
+
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/pythonproject" element={<PythonProject />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
