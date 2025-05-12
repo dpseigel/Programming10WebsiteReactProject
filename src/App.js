@@ -14,6 +14,7 @@ import AnimationThing from "./pages/AnimationThing";
 
 import 'bulma/css/bulma.min.css';
 import './App.css';
+import CameraThing from "./pages/CameraThing";
 
 
 
@@ -32,6 +33,7 @@ function App() {
 
           <Route path="/counterthing" element={<CounterThing />} />
           <Route path="/animationthing" element={<AnimationThing />} />
+          <Route path="/aboutyou" element={<CameraThing />} />
 
 
           <Route path="/projects" element={<Projects />} />

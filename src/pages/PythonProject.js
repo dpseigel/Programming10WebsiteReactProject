@@ -2,12 +2,12 @@
 function PythonProject() {
     return (
         <div className="PythonProject">
-            <section class="hero is-large">
-                <div class="hero-body">
-                    <h1 class="title main-title">PYTHON PROJECT</h1>
+            <section className="hero is-large">
+                <div className="hero-body">
+                    <h1 className="title main-title">PYTHON PROJECT</h1>
                 </div>
             </section>
-            <div class="content">
+            <div className="content">
                 <h1>Hello World</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing

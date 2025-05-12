@@ -1,6 +1,9 @@
 .main-title {
   font-size: 100px;
   text-align: center;
+  background: linear-gradient(to right, #911a80, #00FFFF);
+  background-clip: text;
+  color: transparent;
 }
 
 

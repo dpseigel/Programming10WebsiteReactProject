@@ -3,45 +3,52 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <div className="Navbar">
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <Link class="navbar-item" to="/">
-                        <h1 class="title">DS</h1>
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+                <div className="navbar-brand">
+                    <Link className="navbar-item" to="/">
+                        <h1 className="title">DS</h1>
                     </Link>
                 </div>
-                <div class="navbar-menu">
-                    <div class="navbar-start">
-                        <Link class="navbar-item" to="/projects">
+                <div className="navbar-menu">
+                    <div className="navbar-start">
+                        <Link className="navbar-item" to="/projects">
                             <p>Projects</p>
                         </Link>
 
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
+                        <div className="navbar-item has-dropdown is-hoverable">
+                            <a className="navbar-link">
                                 More
                             </a>
 
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="/about">
-                                    About
+                            <div className="navbar-dropdown">
+                                <a className="navbar-item" href="/about">
+                                    About Me
                                 </a>
-                                <a class="navbar-item" href="/counterthing">
+                                <a className="navbar-item" href="/aboutyou">
+                                    About You
+                                </a>
+                                <a className="navbar-item" href="/counterthing">
                                     CounterThing
                                 </a>
-                                <a class="navbar-item" href="/animationthing">
+                                <a className="navbar-item" href="/animationthing">
                                     AnimationThing
                                 </a>
-                                <a class="navbar-item" href="/programmingclass">
+
+                                <a className="navbar-item" href="/programmingclass">
                                     Programming Class
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <div class="buttons">
-                                <a class="button is-primary is-outlined" href="mailto:help@origamistudios.ca">
+                    <div className="navbar-end">
+                        <div className="navbar-item">
+                            <div className="buttons">
+                                <a className="button is-primary is-outlined" href="mailto:help@origamistudios.ca">
                                     Email
+                                </a>
+                                <a className="button is-white is-outlined" href="https://github.com/dpseigel">
+                                    Github
                                 </a>
                             </div>
                         </div>
