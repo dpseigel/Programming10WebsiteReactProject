@@ -13,11 +13,14 @@ function Projects() {
                     <ProjectCard 
                     title={"PYTHON PROJECT"} 
                     description={"A small demo of a replica of the game The Legend of Zelda using processing."} 
-                    link={"pythonproject"}/>
+                    link={"pythonproject"} image="images/pythonprocessingproject.png"
+                    />
+
                     <ProjectCard 
                     title={"MAKING A WEBSITE"} 
                     description={"A website created using React and Bulma."} 
-                    link={"pythonproject"}/>
+                    link={"websiteproject"}
+                    image={"images/websiteimageproject.png"}/>
 
                 </div>
             </div>

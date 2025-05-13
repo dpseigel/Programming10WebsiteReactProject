@@ -3,7 +3,17 @@ function AnimationThing() {
         <div className="AnimationThing">
             <h1 className="title is-1 main-title">HUMAN</h1>
             <iframe
-                src="/humansketch.html"
+                src="/p5js/humansketch.html"
+                width="400"
+                height="400"
+                style={{ border: "none", marginTop: "20px" }}
+                title="Fly Sketch"
+                className="sketch"
+            />
+            <h1 className="centered">made with <a href="https://p5js.org">p5.js</a>.</h1>
+            <h1 className="title is-1 main-title">ANIMATED NAME</h1>
+            <iframe
+                src="/p5js/animatedname.html"
                 width="400"
                 height="400"
                 style={{ border: "none", marginTop: "20px" }}

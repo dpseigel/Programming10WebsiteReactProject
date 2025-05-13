@@ -1,7 +1,7 @@
 .main-title {
   font-size: 100px;
   text-align: center;
-  background: linear-gradient(to right, #911a80, #00FFFF);
+  background: linear-gradient(to right,#FFFFFF, #40e0d0);
   background-clip: text;
   color: transparent;
 }
@@ -32,7 +32,7 @@
   background-color: rgb(28, 30, 36);
 }
 
-img {
+.pageimage {
   border-radius: 40px;
 }
 

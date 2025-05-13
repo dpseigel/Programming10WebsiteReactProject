@@ -8,29 +8,23 @@ function PythonProject() {
                 </div>
             </section>
             <div className="content">
-                <h1>Hello World</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius
-                    lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
-                    odio, sollicitudin vel erat vel, interdum mattis neque.Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius
-                    lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
-                    odio, sollicitudin vel erat vel, interdum mattis neque.Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius
-                    lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
-                    odio, sollicitudin vel erat vel, interdum mattis neque.Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius
-                    lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
-                    odio, sollicitudin vel erat vel, interdum mattis neque.Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius
-                    lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
-                    odio, sollicitudin vel erat vel, interdum mattis neque.
-                </p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg/960px-2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg"/>
+                <h1>The Legend of Zelda Recreation in Processing</h1>
+                <nav className="level">
+
+                    <iframe src="https://replit.com/@dpseigel/ZeldaProj?embed=true" width="5000" height="400"></iframe>
+
+                    <p>
+                        In programming class, we were tasked with creating a game using python and a library called processing.
+                        This allowed us to learn the basics of programming in a interactive way.
+                        We learned how to use variables and if statements to create interactive animations.
+                        We then furthered our understanding of programming by using functions and for loops to make more complex animations.
+                        Then, using the functions of the processing library, we were able to create somewhat complex games using input from the mouse position and keyboard inputs.
+                        This is the game that I had created to demonstrate my understanding of the programming we learned in class.
+                    </p>
+                </nav>
             </div>
         </div>
-    );
+);
 }
 
 export default PythonProject;
