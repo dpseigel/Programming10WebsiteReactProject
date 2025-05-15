@@ -28,9 +28,9 @@
   font-weight: bolder;
 }
 
-.navbar:hover {
-  background-color: rgb(28, 30, 36);
-}
+/*.navbar:hover {*/
+/*  background-color: rgb(28, 30, 36);*/
+/*}*/
 
 .pageimage {
   border-radius: 40px;

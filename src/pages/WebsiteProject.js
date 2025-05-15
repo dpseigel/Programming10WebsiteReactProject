@@ -4,7 +4,7 @@ function WebsiteProject() {
         <div className="WebsiteProject">
             <section className="hero is-large">
                 <div className="hero-body">
-                    <h1 className="title main-title">PYTHON PROJECT</h1>
+                    <h1 className="title main-title">PROGRAMMING PROJECT</h1>
                 </div>
             </section>
             <div className="content">

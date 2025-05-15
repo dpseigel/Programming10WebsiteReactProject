@@ -23,10 +23,10 @@ function App() {
 
   return (
     <div>
-      <Router>
+      <Router >
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
+        <Routes >
+          <Route exact path="/" element={<Home/>} />
 
           <Route path="/programmingclass" element={<ProgrammingClass />} />
 

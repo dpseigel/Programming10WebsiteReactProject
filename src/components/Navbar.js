@@ -44,10 +44,10 @@ function Navbar() {
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                                <a className="button is-primary is-outlined" href="mailto:help@origamistudios.ca">
+                                <a className="button is-link is-outlined" href="mailto:help@origamistudios.ca">
                                     Email
                                 </a>
-                                <a className="button is-white is-outlined" href="https://github.com/dpseigel">
+                                <a className="button is-success is-outlined" href="https://github.com/dpseigel">
                                     Github
                                 </a>
                             </div>
