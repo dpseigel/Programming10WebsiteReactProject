@@ -35,14 +35,14 @@ function PythonProject() {
                     <h1 className={"title"}>Project Planning:</h1>
                     <div className="grid">
 
-                        <img className="pageimage"  src={"../images/presentation/page1.png"}/>
-                        <img className="pageimage" src={"../images/presentation/page2.png"}/>
-                        <img className="pageimage"  src={"../images/presentation/page3.png"}/>
-                        <img className="pageimage"  src={"../images/presentation/page4.png"}/>
+                        <img className="pageimage"  src={"../images/pythonpresentation/page1.png"}/>
+                        <img className="pageimage" src={"../images/pythonpresentation/page2.png"}/>
+                        <img className="pageimage"  src={"../images/pythonpresentation/page3.png"}/>
+                        <img className="pageimage"  src={"../images/pythonpresentation/page4.png"}/>
 
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     );
 }

@@ -7,6 +7,10 @@
 }
 
 
+.box-title {
+  font-size: 30px;
+}
+
 
 .grid {
   margin: 50px;
@@ -28,9 +32,9 @@
   font-weight: bolder;
 }
 
-/*.navbar:hover {*/
-/*  background-color: rgb(28, 30, 36);*/
-/*}*/
+.navbar:hover {
+  background-color: rgb(28, 30, 36);
+}
 
 .pageimage {
   border-radius: 40px;
@@ -45,4 +49,8 @@
 }
 .counter-button {
   margin: 10px;
+}
+
+.box {
+  margin: 40px;
 }

@@ -29,6 +29,12 @@ function Projects() {
                         link={"/animationthing"}
                         image="images/handsomeguy.png"
                     />
+                    <ProjectCard
+                        title={"Circuit Playground Express Project"}
+                        description={"Solving a problem using sensors and the Circuit Playground Express."}
+                        link={"circuitplaygroundproject"}
+                        image="images/circuitplayground_express.jpg"
+                    />
 
                 </div>
             </div>

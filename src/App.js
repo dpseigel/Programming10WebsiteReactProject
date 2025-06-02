@@ -16,6 +16,7 @@ import 'bulma/css/bulma.min.css';
 import './App.css';
 import CameraThing from "./pages/CameraThing";
 import WebsiteProject from "./pages/WebsiteProject";
+import CircuitPlaygroundProject from "./pages/CircuitPlaygroundProject";
 
 
 
@@ -40,6 +41,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/pythonproject" element={<PythonProject />} />
           <Route path="/projects/websiteproject" element={<WebsiteProject />} />
+          <Route path="/projects/circuitplaygroundproject" element={<CircuitPlaygroundProject />} />
+
 
         </Routes>
       </Router>
